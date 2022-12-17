@@ -1,0 +1,19 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: 1px dashed red;
+	min-height: 10px;
+} */
+body{display: flex; justify-content: center; align-items: center; height:100vh;background-color: black;}
+.post{background: white; 
+width:450px;}
+.post-header{display: flex; justify-content:space-between;align-items: center;padding: 5px;}
+.post-header-left{display: flex;align-items: center;}
+.fa-brands{margin-right: 5px;}
+/* .post-image{display: flex;justify-content: center;} */
+/* .post-image img{width: 300px; height: 300px; margin:0; display: flex; justify-content: center;} */
+img{width:100%;}
+.description{display: flex; justify-content: space-between;align-items: center;padding: 10px;}
+.post-text p{text-align: justify; padding: 10px;}
+.fa-regular{font-size:25px;}
